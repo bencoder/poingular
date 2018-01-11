@@ -1,0 +1,23 @@
+{
+  "name": "pongular",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bencoder@bitbucket.org/diamondlab/pongular.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/diamondlab/pongular#readme",
+  "dependencies": {
+    "finalhandler": "^1.1.0",
+    "serve-static": "^1.13.1",
+    "websocket": "^1.0.25",
+    "ws": "^4.0.0"
+  }
+}
