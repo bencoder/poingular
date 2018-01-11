@@ -231,8 +231,11 @@ let Game = function(context, size, playerName) {
     }
 };
 
+let name = null;
+while (!name) {
+  name = prompt('Enter your name');
+}
 
-const name = prompt('Enter your name');
 let game = new Game(context, 600, name+'_'+Math.floor(Math.random()*900+100));
 
 let lastTime;
